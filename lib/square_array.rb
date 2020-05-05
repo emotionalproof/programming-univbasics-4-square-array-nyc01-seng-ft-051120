@@ -4,5 +4,5 @@ def square_array(array)
   array.length do |index|
     squared_array << array[index]**2
   end
-  array
+  squared_array
 end
