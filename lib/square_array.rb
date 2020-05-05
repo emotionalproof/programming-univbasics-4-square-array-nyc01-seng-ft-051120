@@ -1,6 +1,8 @@
 def square_array(array)
+  squared_array
+
   array.length do |index|
-    array[index] = array[index]**2
+    squared_array << array[index]**2
   end
   array
 end
